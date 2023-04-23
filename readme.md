@@ -21,6 +21,7 @@ The aim of this project is to implement a semantic search engine using artificia
 - [ ] **Customizable Search Index**: The search engine could allow users to choose what text they want to be searched from and create a customized search index.
 
 Project/
+
 ├── app/
 
 │   ├── __init__.py
