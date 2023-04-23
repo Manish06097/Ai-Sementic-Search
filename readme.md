@@ -20,15 +20,65 @@ The aim of this project is to implement a semantic search engine using artificia
 - [ ] **Integration with Third-Party Services**: The search engine could be integrated with third-party services like Google Drive or Dropbox to provide a more comprehensive search experience.
 - [ ] **Customizable Search Index**: The search engine could allow users to choose what text they want to be searched from and create a customized search index.
 
+Project/
+├── app/
+
+│   ├── __init__.py
+
+│   ├── main.py
+
+│   └── utils.py
+
+├── js/
+
+│   ├── main.js
+
+│   └── ...
+
+├── static/
+
+│   ├── css/
+
+│   │   └── style.css
+
+│   └── ...
+
+├── templates/
+
+│   ├── Index.html
+
+│   └── ...
+
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 ## How to Run the Code
 
 1. Install the required libraries:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
 
-2. Set up a Pinecone account and obtain your API key.
+```
+2.Clone this repository to your local machine:
+```
 
-3. Replace the `api_key` in the code with your Pinecone API key.
+git clone https://github.com/Manish06097/Ai-Sementic-Search
+```
+3.Install the required packages using pip:
+```
+cd semantic-search
+pip install -r requirements.txt
 
-4. Process the data by calling the `process_data` function with your text data:
-```python
-process_data("your_text_data_here")
+```
+
+
+3. Set up a Pinecone account and obtain your API key.
+
+4. Replace the `api_key` in the code with your Pinecone API key.
+
+5. Run fast api server 
+``` 
+uvicorn run  app.main:app --reload 
+```
+6. run Index.html file to get the UI Interface
