@@ -6,7 +6,7 @@ The aim of this project is to implement a semantic search engine using artificia
 
 ### Components
 
-- [x] **Vector Database**: The project uses Pinecone to store and index the text documents.
+- [] **Vector Database**: The project uses Pinecone to store and index the text documents.
 - [x] **Vectorization Algorithm**: The project uses the SentenceTransformer library and Open AI’s latest text embeddings to vectorize the search query and the text documents to be searched from.
 - [x] **Similarity Search Algorithm**: The search engine utilizes Pinecone's similarity search to find the most similar documents to the user's query.
 
