@@ -1,0 +1,9 @@
+fastapi==0.95.1
+nltk==3.7
+numpy==1.21.2
+pinecone==0.1.0
+pinecone_client==2.2.1
+PyPDF2==3.0.1
+sentence_transformers==2.2.2
+spacy==3.4.0
+tqdm==4.64.0
