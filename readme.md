@@ -83,3 +83,12 @@ pip install -r requirements.txt
 uvicorn run  app.main:app --reload 
 ```
 6. run Index.html file to get the UI Interface
+
+
+# Demo Image
+![image](https://user-images.githubusercontent.com/73208573/233854944-a707e603-7a7d-4c60-9fc0-5c651bb931e3.png)
+
+![image](https://user-images.githubusercontent.com/73208573/233854995-b1a99bfd-9b56-4be2-bfc1-fca0718815a3.png)
+
+![image](https://user-images.githubusercontent.com/73208573/233855114-a0c7a9fe-efd9-4885-9957-a5ef2f77000c.png)
+
